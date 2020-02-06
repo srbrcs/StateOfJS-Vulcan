@@ -1,9 +1,11 @@
 FROM abernix/meteord:onbuild
 
 
-RUN npm i -g npm 
+RUN npm i -g npm n
 
 WORKDIR /app
+
+RUN n stable
 
 RUN npm install
 
