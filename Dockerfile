@@ -7,4 +7,4 @@ WORKDIR /app
 
 RUN npm install
 
-RUN npm prestart
+RUN npm run prestart
